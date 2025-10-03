@@ -23,4 +23,12 @@
     .form-group .btn-magic {
         font-size: 16px;
     }
+    
+    .flag-image {
+    top: 5px;
+    padding: 5px;
+    width: 100px;
+    z-index: 100;
+}
+
 }

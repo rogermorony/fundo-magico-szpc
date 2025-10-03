@@ -5,6 +5,10 @@ body {
     font-family: "Roboto Mono", monospace;
     line-height: 1.4;
     padding: 32px 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body::after {
@@ -20,20 +24,25 @@ body::after {
 }
 
 .header { 
-    margin: 40px auto;
+    margin: 20px auto;
     z-index: 99;
     position: relative;
     max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header h1 {
     margin-bottom: 16px;
     font-size: 48px;
     text-align: center;
+    font-family: uncial antiqua;
+    color: rgb(212, 175, 55)
 }
 
 .header .subtitle {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(212, 175, 55, 0.8);
     font-size: 19px;
     text-align: center;
 }
@@ -54,8 +63,10 @@ body::after {
 
 .card-header {
     margin-bottom: 32px;
-    font-size: 21px;
+    font-size: 28px;
     text-align: center;
+    font-family: caudex;
+    color: rgba(212, 175, 55, 0.8);
 }
 
 .form-group textarea {
@@ -115,6 +126,7 @@ body::after {
 .code-title {
     font-size: 20px;
     margin-bottom: 16px;
+    color: rgba(212, 175, 55, 0.8);
 }
 
 .code-block {
@@ -127,5 +139,14 @@ body::after {
     word-wrap: break-word;
 }
 
+.flag-image {
+    width: 200px;
+    margin-bottom: 5px;
+}
 
-
+.site-footer {
+    padding: 18px 20px;
+    text-align: center;
+    font-family: caudex;
+    color: rgba(255,255,255,0.5);
+}
